@@ -1,7 +1,28 @@
 {
   // These tasks will run in order when initializing your CodeSandbox project.
+<<<<<<< HEAD
   "setupTasks": [],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {}
+=======
+  "setupTasks": [
+    {
+      "name": "n",
+      "command": "npm install live-server"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "npx live-server": {
+      "name": "npx live-server",
+      "command": "npx --yes live-server",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
+    }
+  }
+>>>>>>> dc77fd1811f81b25324adaf9df885cd98eda536b
 }
