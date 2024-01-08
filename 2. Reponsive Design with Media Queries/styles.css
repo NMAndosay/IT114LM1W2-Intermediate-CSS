@@ -16,40 +16,29 @@
   font-size: 24px;
 }
 
-<<<<<<< HEAD
-/* Todo 2.1: Define and apply CSS styles such that the background of .change-styles changes to
+/* Todo 2.0: Define  Define and apply CSS styles such that the background of .change-styles changes to
 a different color when the screen is smaller than 500px*/
-.change-styles {
+.change-color {
   width: 100%;
   height: 300px;
   background-color: pink;
 }
 
 @media (min-width: 500px) {
-  .change-styles {
+  .change-color {
     width: 100%;
     height: 300px;
     background-color: violet;
   }
 }
 
-/* Todo 2.2: Define and apply CSS styles such that the layout of .change-layout becomes a column when the screen's width is smaller than 500px */
-=======
-/* Todo 2.0: Define  Define and apply CSS styles such that the background of .change-styles changes to
-a different color when the screen is smaller than 500px*/
-.change-color {
-  background-color: red;
-}
-
 /* Todo 2.1: Define and apply CSS styles such that the layout of .change-layout becomes a column
 when the screen's width is smaller than 500px */
->>>>>>> dc77fd1811f81b25324adaf9df885cd98eda536b
 .change-layout {
   display: flex;
   flex-direction: row;
 }
 
-<<<<<<< HEAD
 @media (min-width: 500px) {
   .change-layout {
     display: flex;
@@ -57,18 +46,13 @@ when the screen's width is smaller than 500px */
   }
 }
 
-/* Todo 2.3: Define the common breakpoints for devices - phone, tablet, small screens (laptop), and large screens (desktops).
-For each break point, the background of .common-breakpoints must change
-=======
 /* Todo 2.2: Define the common breakpoints for the following devices - phone, tablet, small screens (laptop), and large screens (desktops).
 For each break point, the background of .common-breakpoints must change. You may not use two rules in one media query i.e. you cannot do "(min-width: 100) and (max-width: 200px)" 
->>>>>>> dc77fd1811f81b25324adaf9df885cd98eda536b
 */
 .common-breakpoints {
   width: 100%;
   height: 300px;
   background-color: blue;
-<<<<<<< HEAD
 }
 
 /* X-Small devices (portrait phones, less than 576px)*/
@@ -97,6 +81,4 @@ For each break point, the background of .common-breakpoints must change. You may
   .common-breakpoints {
     background-color: black;
   }
-=======
->>>>>>> dc77fd1811f81b25324adaf9df885cd98eda536b
 }
